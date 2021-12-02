@@ -1,0 +1,14 @@
+<app-header titulo="Categorías"></app-header>
+
+<ion-content color="dark">
+  <ion-segment scrollable mode="md"
+               (ionChange)="cambioCategoria($event)">
+    <ion-segment-button mode="md"
+                        *ngFor="let categoria of categorias"
+                        [value]="categoria.nombre">
+      <ion-label class="ion-text-capitalize">{{categoria.nombre}}</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <app-cursos [cursos]="cursosFilter"></app-cursos>
+</ion-content>

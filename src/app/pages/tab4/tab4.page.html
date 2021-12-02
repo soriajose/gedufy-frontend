@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>tab4</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <form [formGroup]="formContacto" (ngSubmit)="createContacto()">
+    <ion-item>
+      <ion-label position="floating">Nombre</ion-label>
+      <ion-input required formControlName="nombre" type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Correo</ion-label>
+      <ion-input required formControlName="correo" type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="flating" >Mensaje</ion-label>
+      <ion-textarea placeholder="Enter more information here..."></ion-textarea>
+    </ion-item>
+
+    <ion-button expand="block" color="primary" type="submit" [disabled]="formContacto.invalid">
+      Enviar
+    </ion-button>
+  </form>
+
+</ion-content>

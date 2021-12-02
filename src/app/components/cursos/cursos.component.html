@@ -1,0 +1,12 @@
+<ion-grid fixed>
+  <ion-row>
+    <ion-col size="12" size-lg="3" size-md="4" size-sm="6" size-xs="12"
+             *ngFor="let curso of cursos; let i = index">
+
+      <app-curso [curso]="curso"
+                       [nro]="i"
+                       [enFavoritos]="enFavoritos">
+      </app-curso>
+    </ion-col>
+  </ion-row>
+</ion-grid>

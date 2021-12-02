@@ -1,0 +1,16 @@
+<app-header titulo="Favoritos"></app-header>
+
+<ion-content color="dark">
+  <ion-slides *ngIf="dataLocalService.cursos.length === 0">
+    <ion-slide>
+      <ion-label class="ion-margin-top">
+        No hay favoritos
+      </ion-label>
+    </ion-slide>
+  </ion-slides>
+
+  <app-cursos *ngIf="dataLocalService.cursos.length > 0"
+                    [enFavoritos]="true"
+                    [cursos]="dataLocalService.cursos">
+  </app-cursos>
+</ion-content>

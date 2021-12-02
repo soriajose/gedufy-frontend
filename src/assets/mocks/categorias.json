@@ -1,0 +1,26 @@
+{
+  "status": 0,
+  "messaje": "",
+  "data": [
+    {
+      "id": 1,
+      "nombre": "Redes Sociales"
+    },
+    {
+      "id": 2,
+      "nombre": "Ciencia Datos"
+    },
+    {
+      "id": 3,
+      "nombre": "Desarrollo"
+    },
+    {
+      "id": 4,
+      "nombre": "Metodologías Ágiles"
+    },
+    {
+      "id": 5,
+      "nombre": "Base de Datos"
+    }
+  ]
+}

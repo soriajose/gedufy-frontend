@@ -1,0 +1,22 @@
+<ion-card color="dark">
+  <ion-card-header>
+    <ion-card-subtitle>
+      <span class="text-primary">{{nro + 1}}. </span>
+      <span class="curso-direccion">cantidad horas: {{curso.cantHoras}}</span>
+
+      <div class="curso-more">
+        <ion-button fill="clear" (click)="lanzarMenu()">
+          <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+        </ion-button>
+      </div>
+
+    </ion-card-subtitle>
+    <ion-card-title (click)="abrirCurso()">{{curso.nombre}}</ion-card-title>
+  </ion-card-header>
+
+  <ion-img (click)="abrirCurso()" *ngIf="curso.imagen" [src]="curso.imagen"></ion-img>
+
+  <ion-card-content>
+    <p>{{curso.descripcion}}</p>
+  </ion-card-content>
+</ion-card>

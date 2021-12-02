@@ -1,0 +1,66 @@
+{
+  "status": 0,
+  "message": "",
+  "data": [
+    {
+      "id": 1,
+      "nombre": "Social Media Marketing",
+      "descripcion": "Este curso de Social Media Marketing...",
+      "imagen": "https://img-c.udemycdn.com/course/240x135/1163506_89ed.jpg",
+      "precio": 15500.0,
+      "cantHoras": 160,
+      "categoria": "Redes Sociales",
+      "url": "https://www.udemy.com/course/curso-social-media-marketing/"
+    },
+    {
+      "id": 2,
+      "nombre": "Data Science",
+      "descripcion": "Este curso de Data Science...",
+      "imagen": "https://img-c.udemycdn.com/course/240x135/1606018_069c.jpg",
+      "precio": 25600.0,
+      "cantHoras": 320,
+      "categoria": "Ciencia Datos",
+      "url": "https://www.udemy.com/course/machinelearningpython/"
+    },
+    {
+      "id": 3,
+      "nombre": "Ciencia de Datos",
+      "descripcion": "Este curso de Python para Ciencia de Datos...",
+      "imagen": "https://img-c.udemycdn.com/course/240x135/2909820_5b11_5.jpg",
+      "precio": 28600.0,
+      "cantHoras": 400,
+      "categoria": "Ciencia Datos",
+      "url": "https://www.udemy.com/course/ciencia-de-datos-python/"
+    },
+    {
+      "id": 4,
+      "nombre": "Máster en Java",
+      "descripcion": "Este curso de Máster Completo en Java...",
+      "imagen": "https://img-c.udemycdn.com/course/240x135/3078492_1a27_2.jpg",
+      "precio": 28600.0,
+      "cantHoras": 400,
+      "categoria": "Desarrollo",
+      "url": "https://www.udemy.com/course/master-completo-java-de-cero-a-experto/"
+    },
+    {
+      "id": 5,
+      "nombre": "Python",
+      "descripcion": "Este curso de Python...",
+      "imagen": "https://img-c.udemycdn.com/course/480x270/882422_0549_11.jpg",
+      "precio": 28600.0,
+      "cantHoras": 400,
+      "categoria": "Desarrollo",
+      "url": "https://www.udemy.com/course/python-3-al-completo-desde-cero/"
+    },
+    {
+      "id": 6,
+      "nombre": "MongoDB",
+      "descripcion": "Este curso de MongoDB...",
+      "imagen": "https://img-c.udemycdn.com/course/480x270/4314704_3c63.jpg",
+      "precio": 28600.0,
+      "cantHoras": 400,
+      "categoria": "Base de Datos",
+      "url": "https://www.udemy.com/course/curso-completo-de-bases-de-datos-mongodb-y-nosql/"
+    }
+  ]
+}
